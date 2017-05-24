@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="WSCrearRequisicion">
+      <implementation-class>Servicios.WSCrearRequisicion</implementation-class>
+    </service>
+    <service name="WSActualizarRequisicion">
+      <implementation-class>Servicios.WSActualizarRequisicion</implementation-class>
+    </service>
+    <service name="WSCrearSolicitud">
+      <implementation-class>Servicios.WSCrearSolicitud</implementation-class>
+    </service>
+    <service name="WSActualizarSolicitud">
+      <implementation-class>Servicios.WSActualizarSolicitud</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
